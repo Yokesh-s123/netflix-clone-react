@@ -1,0 +1,141 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+/* nav */
+.nav{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  transition: all 0.3s;
+}
+.nav_img{
+  width:100px;
+  margin-left: 10px;
+  height: 20px;
+ object-fit: contain;
+ 
+}
+.nav_avatar{
+  width: 70px;
+  margin-right: 10px;
+
+  height: 40px;
+  object-fit: contain;
+}
+.cent h3{
+  font-size: 1.5rem;
+  margin-block: 12px;
+}
+
+.add{
+  background-color:rgb(17, 17, 17,0.9);
+  /* opacity: 0.9; */
+}
+p{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ban */
+.ban{
+  padding-top: 100px;
+
+  padding-bottom: 24px;
+  padding-inline: 10px;
+   color: white;
+}
+.ban p{
+  text-align: left;
+}
+.cent{
+  max-width: 1144px;
+  margin: auto;
+}
+.ban h2{
+  margin-bottom: 1rem;
+  transition: all 0.4s;
+}
+h3{
+  font-size: 2rem;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+.btn{
+cursor: pointer;
+  padding: 8px;
+  outline: 0;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: white;
+  border: 0;
+  margin: 8px;
+  background-color: rgb(17, 17, 17,0.5);
+}
+.ban p{
+  margin-top:2rem ;
+}
+.p{
+  margin-top:2rem ;
+  width: 350px;
+}
+
+.container{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar{
+  display: none;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.container,.el{
+  /* border: 2px solid red; */
+}
+.el{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.el img{
+  object-fit: fill;
+  width:100px;
+  /* width: 100%; */
+}
+ .big img{
+  height:200px;
+}
+.el{
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.el:hover{
+  transform: scale(1.2);
+}
